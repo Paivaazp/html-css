@@ -1,0 +1,21 @@
+ @charset "UTF-8"
+ 
+ body {
+            background-color: bisque;
+            font-family: fantasy;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: rgb(228, 129, 0);
+            background-color: rgb(69, 29, 0);
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(226, 161, 139);
+        }
+
+        p {
+            text-align: justify;
+        }
