@@ -79,7 +79,7 @@ nav {
 }
 
 nav>a {
-    color:var(--cor4);
+    color:red;
     padding: 5px;
     text-decoration: none;
     font-weight: bold;
