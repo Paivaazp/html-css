@@ -79,8 +79,8 @@ nav {
 }
 
 nav>a {
-    color:red;
-    padding: 5px;
+    color:var(--cor4);
+    padding: 10px;
     text-decoration: none;
     font-weight: bold;
 }
