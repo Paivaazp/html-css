@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 004</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif, Helvetica;
+        margin: 20px;
+    }
+</style>
+
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome"><em>Nome Completo</em></label>
+                <input type="text" name="name" id="inome" required maxlength="50" placeholder="Digite seu nome completo"
+                    autocomplete="name">
+            </p>
+            <p>
+                <label for="iemail"><em>E-mail</em></label>
+                <input type="email" name="email" id="iemail" required autocomplete="email"
+                    placeholder="Digite seu e-mail">
+            </p>
+            <p>
+                <label for="itel"><em>Telefone</em></label>
+                <input type="tel" name="telefone" id="itel" required autocomplete="tel" placeholder="(XX) XXXXX-XXXX"
+                    pattern="\(\d{2}\) \d{4,5}-\d{4}">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+    </form>
+
+</body>
+
+</html>
