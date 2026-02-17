@@ -29,12 +29,13 @@ header {
 
 
 header>h1 {
-    border: 3px solid black;
+    /*border: 3px solid black;*/
     flex: 0 0 200px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.446);
 }
 
 header>nav {
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -44,7 +45,7 @@ header > nav > a {
     background-color: darkblue;
     color: lightskyblue;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
