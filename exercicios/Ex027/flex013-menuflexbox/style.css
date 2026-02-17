@@ -20,16 +20,43 @@ header {
     background-color: lightskyblue;
     color: white;
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 header>h1 {
     border: 3px solid black;
+    flex: 0 0 200px;
 }
 
 header>nav {
     border: 2px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
+
+header > nav > a {
+    background-color: darkblue;
+    color: lightskyblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: rgb(34, 46, 174);
+    color: rgb(255, 255, 255);
+    transition: background-color .2s;
+
+}
+
 
 main {
     background-color: lightsteelblue;
